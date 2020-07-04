@@ -130,41 +130,4 @@ export default {
 .cards
   display flex
   flex-wrap wrap
-.card
-  align-items center
-  color inherit
-  display flex
-  margin 0 -5px
-  margin-bottom 20px
-  text-decoration none
-  width 33.333%
-  & > *
-    padding 0 5px
-  .card-image
-    transition 200ms
-    img
-      border-radius 5%
-      height 60px
-      vertical-align top
-  .card-details
-    overflow hidden
-    .card-header
-      align-items center
-      display flex
-      .card-quantity
-        font-size 12px
-        opacity .8
-        padding-right 5px
-      .card-name
-        font-weight 500
-        overflow hidden
-        text-overflow ellipsis
-        white-space nowrap
-    .card-set
-      font-size 12px
-      opacity .8
-      text-transform uppercase
-  &:hover
-    .card-image
-      transform scale(3)
 </style>

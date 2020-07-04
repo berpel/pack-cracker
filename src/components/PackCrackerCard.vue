@@ -46,8 +46,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="stylus">
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap')
-
 .card
   align-items center
   color inherit
@@ -59,6 +57,7 @@ export default {
   & > *
     padding 0 5px
   .card-image
+    z-index 2
     transition 200ms
     img
       border-radius 5%
@@ -82,7 +81,10 @@ export default {
       font-size 12px
       opacity .8
       text-transform uppercase
+      z-index -1
   &:hover
     .card-image
       transform scale(3)
+      z-index 3
+
 </style>
