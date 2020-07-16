@@ -17,6 +17,8 @@ Embed up to 75 unique cards into any site.
 set|collection_number|<quantity>|<extras>
 ```
 
+If no quantity is specified it defaults to one.
+
 If extras includes the word `foil` the foil price will be displayed.
 
 ## Project setup
