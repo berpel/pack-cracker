@@ -11,7 +11,7 @@
     "vue-custom-element": "^3.2.14"
   },
   "devDependencies": {
-    "@vue/cli-service": "~4.4.0",
+    "@vue/cli-service": "~5.0.8",
     "axios": "^0.18.0",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
